@@ -199,6 +199,7 @@ def big_shoe_rebounds
     end
   end
   player = new_hash.max
+  binding.pry
   #return player's number of rebounds    
     
 end
