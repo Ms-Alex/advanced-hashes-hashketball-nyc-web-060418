@@ -201,6 +201,7 @@ def big_shoe_rebounds
         rebounds = game_hash[where][:players][name][:rebounds]
       end
     end
+  end
     
     return rebounds
   
