@@ -201,7 +201,7 @@ def big_shoe_rebounds
   player = (new_hash.max)[0]
   binding.pry
   #return player's number of rebounds    
-    
+  return game_hash.values[:players][player][:rebounds]
 end
 
 
