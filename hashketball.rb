@@ -196,6 +196,7 @@ def big_shoe_rebounds
     game_hash[where][:players].each do |name, stats|
       shoe_array = game_hash[where][:players][name][:shoe].collect { |num|
       num }
+      binding.pry
     end
     binding.pry
   end
