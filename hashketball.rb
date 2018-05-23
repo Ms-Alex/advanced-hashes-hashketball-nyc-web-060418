@@ -195,8 +195,7 @@ def big_shoe_rebounds
   new_hash = {}
   game_hash.each do |where, data|
     game_hash[where][:players].each do |name, stats|
-      game_hash[where][:players][name][:shoe].min { |num|
-      num }
+      new_hash[name] = game_hash[where][:players][name][:shoe]
       binding.pry
     end
     #binding.pry
