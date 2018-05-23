@@ -192,12 +192,12 @@ end
 
 def big_shoe_rebounds
   #biggest shoe size
-  # game_hash.each do |where, data|
-  #   game_hash[where][:players]. do |name, stats|
-  #     game_hash[where][:players][name][:shoe].collect { |num|
-  #     num }
-  #   end
-  # end
+  game_hash.each do |where, data|
+    game_hash[where][:players]. do |name, stats|
+      game_hash[where][:players][name][:shoe].collect { |num|
+      num }
+    end
+  end
       
     
 end
