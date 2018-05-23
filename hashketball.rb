@@ -172,10 +172,9 @@ def player_numbers(team_name)
   game_hash.each do |where, data|
     data.each do |what, info|
       if game_hash[where][:team_name] == team_name
-        game_hash[where][:players].collect do |name, stats|
-          game_hash[where][:players][name][:number]
-          binding.pry
-        end
+        return game_hash[where][:players].collect { |name, stats|
+          game_hash[where][:players][name][:number] }
+        
       end
     end
   end
