@@ -174,7 +174,6 @@ def player_numbers(team_name)
       if game_hash[where][:team_name] == team_name
         return game_hash[where][:players].collect { |name, stats|
           game_hash[where][:players][name][:number] }
-        
       end
     end
   end
