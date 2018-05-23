@@ -202,7 +202,7 @@ def big_shoe_rebounds
       end
     end
     
-    rebounds
+    return rebounds
   
   #biggest shoe size
   # new_hash = {}
