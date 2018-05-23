@@ -197,6 +197,7 @@ def big_shoe_rebounds
       shoe_array = game_hash[where][:players][name][:shoe].collect { |num|
       num }
     end
+    binding.pry
   end
       
     
